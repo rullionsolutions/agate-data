@@ -24,7 +24,7 @@ module.exports.addFields([
     { id: "tx"            , label: "Transaction"       , type: "Reference", editable: false, list_column: true, search_criterion: true, ref_entity: "ac_tx", description: "The transaction that made this change." },
     { id: "id"            , label: "Row"               , type: "Number"   , editable: false, list_column: true, decimal_digits: 0 },
     { id: "key_string"    , label: "Key String"        , type: "Text"     , editable: false, list_column: true, search_criterion: true, data_length: 80 },
-    { id: "entity"        , label: "Entity"            , type: "Text"     , editable: false, list_column: true, search_criterion: true, data_length: 25, config_item: "entities" },
+    { id: "entity"        , label: "Entity"            , type: "Text"     , editable: false, list_column: true, search_criterion: true, data_length: 25, collection_id: "entities" },
     { id: "action_type"   , label: "Action Type"       , type: "Option"   , editable: false, list_column: true, list: "ac.action_type" },
     { id: "prev_tx"       , label: "Previous Trans"    , type: "Reference", editable: false, list_column: true, ref_entity: "ac_tx", description: "The transaction that last updated this record." },
     { id: "url"           , label: "Link to Record"    , type: "URL"      , editable: false, list_column: true, icon: "/cdn/Axialis/Png/16x16/Go Out.png",

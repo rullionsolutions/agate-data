@@ -28,7 +28,7 @@ module.exports.addFields([
     { id: "tx_stat"      , label: "Status"             , type: "Option"   , editable: false, list_column: true , search_criterion: true, list: "ac.tx_st" },
     { id: "stat_archive" , label: "Status Pre-Archive" , type: "Option"   , editable: false, list: "ac.session_status" },
     { id: "user_id"      , label: "User"               , type: "Reference", editable: false, list_column: true , ref_entity: "ac_user", dscrptn: "A reference to system user account." },
-    { id: "page"         , label: "Page"               , type: "Text"     , editable: false, list_column: true , data_length: 40, config_item: "pages" },
+    { id: "page"         , label: "Page"               , type: "Text"     , editable: false, list_column: true , data_length: 40, collection_id: "pages" },
     { id: "row_count"    , label: "Row Count"          , type: "Number"   , editable: false, list_column: true , aggregation: "S", sql_function: "( select count(*) from ac_tx_sub ZZ where ZZ.tx=?._key )", decimal_digits: 0 },
     { id: "outcome"      , label: "Outcome"            , type: "Text"     , editable: false, list_column: true , data_length: 40 },
     { id: "reason_descr" , label: "Reason for Change"  , type: "Text"     , editable: false, list_column: true, separate_row: true, data_length: 255 },
