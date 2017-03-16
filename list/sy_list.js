@@ -20,7 +20,7 @@ module.exports = Data.Entity.clone({
 
 
 module.exports.addFields([
-    { id: "area" , label: "Area" , type: "Text", data_length:   2, mandatory: true, search_criterion: true, list_column: true, config_item: "areas" },
+    { id: "area" , label: "Area" , type: "Option", data_length:   2, mandatory: true, search_criterion: true, list_column: true, collection_id: "areas" },
     { id: "id"   , label: "Id"   , type: "Text", data_length:  40, mandatory: true, search_criterion: true, list_column: true },
     { id: "title", label: "Title", type: "Text", data_length: 160, mandatory: true, search_criterion: true, list_column: true }
 ]);

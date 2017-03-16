@@ -20,7 +20,7 @@ module.exports = Data.Entity.clone({
 });
 
 module.exports.addFields([
-    { id: "entity"      , label: "Entity"       , type: "Text"     , editable: false, list_column: true, search_criterion: true, data_length: 25, config_item: "entities" },
+    { id: "entity"      , label: "Entity"       , type: "Text"     , editable: false, list_column: true, search_criterion: true, data_length: 25, collection_id: "entities" },
     { id: "rest_of_key" , label: "Rest of Key"  , type: "Text"     , editable: false, list_column: true, search_criterion: true, data_length: 220 },
     { id: "highest_val" , label: "Highest Value", type: "Number"   , editable: false, list_column: true, search_criterion: true, decimal_digits: 0 },
     { id: "taken_by_tx" , label: "Taken by Tx"  , type: "Reference", editable: false, list_column: true, search_criterion: true, ref_entity: "ac_tx" }
