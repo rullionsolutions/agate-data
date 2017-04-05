@@ -1,6 +1,8 @@
 "use strict";
 
 
+require("agate-data/config.js");
+
 require("agate-data/list/sy_list.js");
 require("agate-data/list/sy_list_item.js");
 require("agate-data/list/sy_list_context.js");
