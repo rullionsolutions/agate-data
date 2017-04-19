@@ -3,7 +3,7 @@
 var UI = require("lazuli-ui/index.js");
 
 
-module.exports = UI.Page.clone({
+module.exports = UI.SearchPage.clone({
     id              : "sy_text_search",
     entity_id       : "sy_text",
     title           : "Search for Email Templates",
