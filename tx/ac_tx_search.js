@@ -1,9 +1,9 @@
 "use strict";
 
-
 var UI = require("lazuli-ui/index.js");
 
-module.exports = UI.Page.clone({
+
+module.exports = UI.SearchPage.clone({
     id              : "ac_tx_search",
     entity_id       : "ac_tx",
     title           : "Search for Transactions",

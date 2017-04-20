@@ -13,7 +13,7 @@ module.exports = UI.Page.clone({
 //    transactional: true,
     requires_key: true,
     security: { all: true, },            // only sysmgr can undo other people's transactions though
-    exit_url_cancel: "?page_id=ac_tx_search",
+    exit_url_cancel: "#page_id=ac_tx_search",
 });
 
 
