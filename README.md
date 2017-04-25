@@ -1,2 +1,2 @@
 # agate-data
-Entity and Page objects corresponding to lazuli-data
+Persistent Entities for Transactions, Lists of Values and Text Strings
