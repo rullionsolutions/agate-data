@@ -96,8 +96,8 @@ module.exports.sections.get("values").override("renderRow", function (render_opt
     var java_str2;
     var css_class = null;
     if (this.found1 && this.found2) {
-        java_str1 = SQL.Connection.getColumnString(this.resultset1, field.query_column);
-        java_str2 = SQL.Connection.getColumnString(this.resultset2, field.query_column);
+        java_str1 = SQL.Connection.getColumnString(this.resultset1, field.query_column.name);
+        java_str2 = SQL.Connection.getColumnString(this.resultset2, field.query_column.name);
         if (java_str1 !== java_str2) {
             css_class = "info";
         }
