@@ -10,7 +10,7 @@ INSERT INTO sy_list (_key, _tx, area, id, title) VALUES
     ('sy.search_oper_list_keyword', null, 'sy', 'search_oper_list_keyword', 'Search Operators (Keywords)'),
     ('sy.search_oper_list_number', null, 'sy', 'search_oper_list_number', 'Search Operators (Number)'),
     ('sy.search_oper_list_option', null, 'sy', 'search_oper_list_option', 'Search Operators (Option)'),
-    ('sy.search_oper_list_radius', null, 'sy', 'searcy_oper_list_radius', 'Search Operators (Radius)'),
+    ('sy.search_oper_list_radius', null, 'sy', 'search_oper_list_radius', 'Search Operators (Radius)'),
     ('sy.search_oper_list_scalar', null, 'sy', 'search_oper_list_scalar', 'Search Operators (Number and Date)'),
     ('sy.search_oper_list_subent', null, 'sy', 'search_oper_list_subent', 'Search Operators (Sub-Entity)'),
     ('sy.search_oper_list_text', null, 'sy', 'search_oper_list_text', 'Search Operators (Text)'),
